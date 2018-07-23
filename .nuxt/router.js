@@ -3,20 +3,20 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _3f379984 = () => import('../pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
-const _29c698cf = () => import('../pages/shop.vue' /* webpackChunkName: "pages/shop" */).then(m => m.default || m)
-const _21609638 = () => import('../pages/home.vue' /* webpackChunkName: "pages/home" */).then(m => m.default || m)
-const _6a151f6a = () => import('../pages/indexbackup.vue' /* webpackChunkName: "pages/indexbackup" */).then(m => m.default || m)
-const _52341cd7 = () => import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */).then(m => m.default || m)
-const _5d7c3aed = () => import('../pages/sliderpages/coaching.vue' /* webpackChunkName: "pages/sliderpages/coaching" */).then(m => m.default || m)
-const _3a2d0051 = () => import('../pages/sliderpages/paymentopts.vue' /* webpackChunkName: "pages/sliderpages/paymentopts" */).then(m => m.default || m)
-const _11e27a2a = () => import('../pages/sliderpages/daytrading.vue' /* webpackChunkName: "pages/sliderpages/daytrading" */).then(m => m.default || m)
-const _4f378cdc = () => import('../pages/mystore/mystore.vue' /* webpackChunkName: "pages/mystore/mystore" */).then(m => m.default || m)
-const _7e7438fa = () => import('../pages/login/login.vue' /* webpackChunkName: "pages/login/login" */).then(m => m.default || m)
-const _c7265952 = () => import('../pages/login/signup.vue' /* webpackChunkName: "pages/login/signup" */).then(m => m.default || m)
-const _24b08eda = () => import('../pages/sliderpages/education.vue' /* webpackChunkName: "pages/sliderpages/education" */).then(m => m.default || m)
-const _5090d296 = () => import('../pages/sliderpages/futuresroom.vue' /* webpackChunkName: "pages/sliderpages/futuresroom" */).then(m => m.default || m)
-const _5eef7449 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _70e8bc1e = () => import('../pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
+const _e30c8a16 = () => import('../pages/shop.vue' /* webpackChunkName: "pages/shop" */).then(m => m.default || m)
+const _f3d88f44 = () => import('../pages/home.vue' /* webpackChunkName: "pages/home" */).then(m => m.default || m)
+const _cb769136 = () => import('../pages/indexbackup.vue' /* webpackChunkName: "pages/indexbackup" */).then(m => m.default || m)
+const _47b1fe1e = () => import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */).then(m => m.default || m)
+const _f63b5dda = () => import('../pages/sliderpages/coaching.vue' /* webpackChunkName: "pages/sliderpages/coaching" */).then(m => m.default || m)
+const _1b18706b = () => import('../pages/sliderpages/paymentopts.vue' /* webpackChunkName: "pages/sliderpages/paymentopts" */).then(m => m.default || m)
+const _0fc8c260 = () => import('../pages/sliderpages/daytrading.vue' /* webpackChunkName: "pages/sliderpages/daytrading" */).then(m => m.default || m)
+const _522663ac = () => import('../pages/mystore/mystore.vue' /* webpackChunkName: "pages/mystore/mystore" */).then(m => m.default || m)
+const _4dc38014 = () => import('../pages/login/login.vue' /* webpackChunkName: "pages/login/login" */).then(m => m.default || m)
+const _91f32106 = () => import('../pages/login/signup.vue' /* webpackChunkName: "pages/login/signup" */).then(m => m.default || m)
+const _99f731a6 = () => import('../pages/sliderpages/education.vue' /* webpackChunkName: "pages/sliderpages/education" */).then(m => m.default || m)
+const _317c42b0 = () => import('../pages/sliderpages/futuresroom.vue' /* webpackChunkName: "pages/sliderpages/futuresroom" */).then(m => m.default || m)
+const _debed23a = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
 
@@ -78,72 +78,72 @@ export function createRouter () {
     routes: [
 		{
 			path: "/about",
-			component: _3f379984,
+			component: _70e8bc1e,
 			name: "about"
 		},
 		{
 			path: "/shop",
-			component: _29c698cf,
+			component: _e30c8a16,
 			name: "shop"
 		},
 		{
 			path: "/home",
-			component: _21609638,
+			component: _f3d88f44,
 			name: "home"
 		},
 		{
 			path: "/indexbackup",
-			component: _6a151f6a,
+			component: _cb769136,
 			name: "indexbackup"
 		},
 		{
 			path: "/contact",
-			component: _52341cd7,
+			component: _47b1fe1e,
 			name: "contact"
 		},
 		{
 			path: "/sliderpages/coaching",
-			component: _5d7c3aed,
+			component: _f63b5dda,
 			name: "sliderpages-coaching"
 		},
 		{
 			path: "/sliderpages/paymentopts",
-			component: _3a2d0051,
+			component: _1b18706b,
 			name: "sliderpages-paymentopts"
 		},
 		{
 			path: "/sliderpages/daytrading",
-			component: _11e27a2a,
+			component: _0fc8c260,
 			name: "sliderpages-daytrading"
 		},
 		{
 			path: "/mystore/mystore",
-			component: _4f378cdc,
+			component: _522663ac,
 			name: "mystore-mystore"
 		},
 		{
 			path: "/login/login",
-			component: _7e7438fa,
+			component: _4dc38014,
 			name: "login-login"
 		},
 		{
 			path: "/login/signup",
-			component: _c7265952,
+			component: _91f32106,
 			name: "login-signup"
 		},
 		{
 			path: "/sliderpages/education",
-			component: _24b08eda,
+			component: _99f731a6,
 			name: "sliderpages-education"
 		},
 		{
 			path: "/sliderpages/futuresroom",
-			component: _5090d296,
+			component: _317c42b0,
 			name: "sliderpages-futuresroom"
 		},
 		{
 			path: "/",
-			component: _5eef7449,
+			component: _debed23a,
 			name: "index"
 		}
     ],
