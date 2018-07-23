@@ -16,16 +16,16 @@
     "pages/sliderpages/coaching.7e40e29e610e9444bddd.js",
     "pages/about.3f1f96416973588c4820.js",
     "pages/mystore/mystore.c10a2947fbf82cf84bc3.js",
-    "vendor.385025e52e4884a544b6.js",
+    "vendor.f98de21cdaa709364a40.js",
     "app.a019175cd7ad5ce34b02.js",
-    "manifest.372010116a5078018b5c.js",
+    "manifest.4ae138c9bdce9ad9eb93.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.372010116a5078018b5c.js",
-    "vendor.385025e52e4884a544b6.js",
+    "manifest.4ae138c9bdce9ad9eb93.js",
+    "vendor.f98de21cdaa709364a40.js",
     "app.a019175cd7ad5ce34b02.js"
   ],
   "async": [
@@ -108,9 +108,6 @@
     ],
     "4b3c96e4": [
       1
-    ],
-    "4e230e60": [
-      15
     ],
     "4ae01dd8": [
       8
@@ -234,9 +231,6 @@
     ],
     "1593d3f8": [
       16
-    ],
-    "633aa7e5": [
-      15
     ],
     "4e517f67": [
       16
@@ -362,6 +356,9 @@
       7
     ],
     "1b45c484": [
+      15
+    ],
+    "c11453e8": [
       15
     ],
     "1b0a293f": [
@@ -538,6 +535,9 @@
     "6ba7cc58": [
       11
     ],
+    "849d3e6e": [
+      15
+    ],
     "28886f61": [
       15
     ],
@@ -649,11 +649,11 @@
     "0e4c03f0": [
       5
     ],
-    "1126858e": [
-      3
-    ],
     "2ea586e5": [
       15
+    ],
+    "1126858e": [
+      3
     ],
     "7b6314fc": [
       12
